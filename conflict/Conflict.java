@@ -1,3 +1,5 @@
+package conflict;
+
 public class Conflict {
 
     public static Integer getLength(String str) {
@@ -6,6 +8,7 @@ public class Conflict {
 
     public static void main(String[] args) {
         String s1 = "hello";
-        System.out.println("hello's length: " + getLength(s1));
+        String s2 = "world";
+        System.out.println("hello world's length: " + getLength(s1));
     }
 }
